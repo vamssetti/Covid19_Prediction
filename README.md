@@ -1,6 +1,2 @@
 # Covid19_Prediction
-a dataset containing details about new COVID-19 cases recorded in India on daily
-basis as a csv file (daily_covid_cases.csv). It shows the rolling 7-day average of newly
-confirmed cases starting from 30th-Jan-2020 to 2-Oct-2021. Rows are indexed with dates; the first
-column represents the date and the second column represents the new COVID-19 cases recorded
-that day. We will use this dataset to build an autoregression (AR) model.
+An autoregression (AR) model has been built on dataset consists details about new COVID-19 cases recorded in India on daily basis starting from 30th-Jan-2020 to 2-Oct-2021, which estimates the COVID-19 cases as a linear combination of given lagged data values and also the heuristic value for the optimal number of lags up to the condition on autocorrelation such that abs(AutoCorrelation) > 2/sqrt(T), where T is the number of observations in training set is found
